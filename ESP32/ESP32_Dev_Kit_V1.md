@@ -9,8 +9,10 @@
 ## Lập trình
 - Hỗ trợ arduinoide mixly, Mind +, Python và các phần mềm lập trình khác
 - Với Arduino IDE:
-  - - DOIT esp32 devkit v1
-- Với Visual Studio Code:  
+  - Chọn board: DOIT esp32 devkit v1
+- Với Visual Studio Code:
+  - Chọn board: ![image](https://github.com/neittien0110/MCU/assets/8079397/5ee068bc-0274-446e-a262-9aab80e7654b)
+
 
 ## Thông số chi tiết
 - Mô hình bảng phát triển: ESP32-DevKitC-32
@@ -25,6 +27,14 @@
   - Nguồn điện 3.3V trực tiếp vào các chân pin 3.3V (chú ý không được bảo vệ)
 - Kích thước: 52*28mm
 - Trọng lượng khoảng 9.5g
+
+![image](https://github.com/neittien0110/MCU/assets/8079397/71912ac5-488c-45be-9af2-06452e94a2cd)
+
+### Tra cứu bản đồ địa chỉ bộ nhớ
+
+<https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf>
+![image](https://github.com/neittien0110/MCU/assets/8079397/0de15693-f3c2-48f1-9a77-947fa26d5d95)
+
 
 ## Mua
 - Lazada: <https://www.lazada.vn/products/i1962797806-s9056915561.html?urlFlag=true&mp=1&spm=spm%3Da2o4n.order_details.item_title.1>
