@@ -15,7 +15,7 @@ ModelA:
 
 
 ## Lập trình
-- LED_BUILDIN  được nối với chân PB1
+- LED_BUILDIN  được nối với chân PB1 (đã kiểm tra)
 
 ```arduino
 #define LED_BUILDIN 1
