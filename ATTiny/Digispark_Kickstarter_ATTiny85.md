@@ -16,7 +16,11 @@
 ```
 
 - Với Arduino IDE:
-  - Chọn board: DOIT esp32 devkit v1
+  - Thêm thông tin về board mới:
+    ```
+    http://digistump.com/package_digistump_index.json
+    ```
+  - Chọn board: Digispakr (Default - 16 mhz)
 - Với Visual Studio Code:
   - Chọn board: ![image](https://github.com/neittien0110/MCU/assets/8079397/5ee068bc-0274-446e-a262-9aab80e7654b)
   - Cấu hình PlatformIO
@@ -46,7 +50,7 @@ Tham khảo: <https://docs.platformio.org/en/latest/boards/atmelavr/digispark-ti
 
 
 ## Demo
-  ![Video](https://youtu.be/Xo8rYATKyDA?si=4_hPLh-KgOdXgbzL)
+  [Video](https://youtu.be/Xo8rYATKyDA?si=4_hPLh-KgOdXgbzL)
   
 ## Vỏ in 3D
  - Dạng đầu USB đực: <https://www.thingiverse.com/thing:3303209>
