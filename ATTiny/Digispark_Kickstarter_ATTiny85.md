@@ -42,6 +42,8 @@ board_build.mcu = attiny85
 board_build.f_cpu = 16500000L
 ```
 
+- Điều khiển servo không sử dụng lib mặc định *Servo.h*. Có thể sử dụng lib [SoftServo](https://github.com/GyverLibs/SoftServo)
+
 
 ## Thông số chi tiết
 > CPU: ATTiny85
