@@ -1,18 +1,24 @@
 # Digispark Kickstarter ATTiny85
 
-## Mô tả 
-- Module CPU: ESP-WROOM-32
-- Kích cỡ trùng khớp với câc loại NodeMCU phổ biến ở VN
-- Lưu ý: có 2 loại cổng usb **Type C** và *Micro USB*
+ModelA:
+![image](https://github.com/neittien0110/MCU/assets/8079397/9facb5b4-40ad-44d3-8f54-08399f50087e)
+![image](https://github.com/neittien0110/MCU/assets/8079397/2becfdcb-ed08-4fd4-8da6-dd248c5e3f05)
 
-![image](https://github.com/neittien0110/MCU/assets/8079397/50128af6-1523-4dd5-851a-57714fe52314)
+
+## Mô tả 
+- CPU: ATTiny85
+- Tần số xung nhịp: 16 mHz
+- Flash memory: 5.87KB
+- RAM: 512B
+
+![image](https://github.com/neittien0110/MCU/assets/8079397/f137aa71-9ee6-4d03-a251-3789a85d10f5)
+
 
 ## Lập trình
-- Hỗ trợ arduinoide mixly, Mind +, Python và các phần mềm lập trình khác
-- LED_BUILDIN  được nối với chân D2 (đã đo bằng đồng hồ)
+- LED_BUILDIN  được nối với chân PB1
 
 ```arduino
-#define LED_BUILDIN 2
+#define LED_BUILDIN 1
 ```
 
 - Với Arduino IDE:
@@ -20,9 +26,11 @@
     ```
     http://digistump.com/package_digistump_index.json
     ```
-  - Chọn board: Digispakr (Default - 16 mhz)
-- Với Visual Studio Code:
-  - Chọn board: ![image](https://github.com/neittien0110/MCU/assets/8079397/5ee068bc-0274-446e-a262-9aab80e7654b)
+  - Chọn board: Digispark (Default - 16 mhz)
+- Với Visual Studio Code + PlatformIO
+  - Chọn board:
+    ![PlatformIO](https://github.com/neittien0110/MCU/assets/8079397/600f32e7-d18c-4c1a-875e-0da0960e843d)
+
   - Cấu hình PlatformIO
 ```
 [env:digispark-tiny]
@@ -36,11 +44,19 @@ board_build.f_cpu = 16500000L
 
 
 ## Thông số chi tiết
-- CPU: ATTiny85
-- Tần số xung nhịp: 
+> CPU: ATTiny85
+> Tần số xung nhịp: 16 mHz
 - Flash memory: 5.87KB
 - RAM: 512B
+- Nguồn cấp:
+  - USB
+  - Vin với dải điện áp 5-7.35V
+- **Các chân vào ra phải làm việc ở điện áp 3.3V**
 - Nhà sản xuất: [Digistump](http://digistump.com/products/1?utm_source=platformio.org&utm_medium=docs)
+
+![Schematic](https://github.com/neittien0110/MCU/assets/8079397/0c558468-39e4-4956-878b-cea119279545)
+
+
 Tham khảo: <https://docs.platformio.org/en/latest/boards/atmelavr/digispark-tiny.html?utm_source=platformio&utm_medium=piohome>
 
 ### Tra cứu bản đồ địa chỉ bộ nhớ
