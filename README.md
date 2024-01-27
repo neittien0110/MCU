@@ -7,8 +7,8 @@ Mô tả về các loại vi điều khiển Master Control Unit
    ![ESP32 Lite V1.0](https://github.com/neittien0110/MCU/assets/8079397/0dc51700-faed-4efe-8194-391021855b1a)
 
 
-3. [ESP8266 NodeMCU Ver 3](ESP8266/NodeMCU_V3.md)
+3. [ESP8266 NodeMCU Ver 3](ESP8266/NodeMCU_V3.md)\
    ![image](https://github.com/neittien0110/MCU/assets/8079397/d6e9e28b-742c-471a-a03e-572f0b630148)
 
-4. [Digispark Kichstarter ATTiny85](ATTiny/Digispark_Kickstarter_ATTiny85.md)
-   ![Uploading image.png…]()
+4. [Digispark Kichstarter ATTiny85](ATTiny/Digispark_Kickstarter_ATTiny85.md)\
+   ![image](https://github.com/neittien0110/MCU/assets/8079397/de27b818-f12e-478a-907c-27ee331f2706)
