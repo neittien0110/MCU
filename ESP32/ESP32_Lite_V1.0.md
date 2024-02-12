@@ -15,13 +15,14 @@
 - Power Supply: 2.2V to 3.6V
 - Logic Level: 3.3V
 - Integrated Lithium Charger Circuit max. 500mA
+> Cổng BAT nối pin là loại mini micro `JST XH 2.5 female`
 
 ![pins and interfaces](https://github.com/neittien0110/MCU/assets/8079397/f591975d-b699-4d61-9bfb-38f6af7234f2)
 
 ## Lập trình
 - LED_BUILDIN  được nối với chân 22 (đã đo bằng đồng hồ)
 
-```arduino
+```C
 #define LED_BUILDIN 22
 ```
 
@@ -32,7 +33,8 @@
   - Chọn board: \
     ![lolin32_lite](https://github.com/neittien0110/MCU/assets/8079397/ceddc91b-fe56-49a3-8798-de8a22c5e2f4)
   - Cấu hình PlatformIO
-```
+
+```env
 [env:lolin32_lite]
 platform = espressif32
 board = lolin32_lite
