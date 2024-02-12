@@ -11,7 +11,7 @@
 - Hỗ trợ arduinoide mixly, Mind +, Python và các phần mềm lập trình khác
 - LED_BUILDIN  được nối với chân D2 (đã đo bằng đồng hồ)
 
-```arduino
+```C
 #define LED_BUILDIN 2
 ```
 
@@ -20,7 +20,8 @@
 - Với Visual Studio Code:
   - Chọn board: ![image](https://github.com/neittien0110/MCU/assets/8079397/5ee068bc-0274-446e-a262-9aab80e7654b)
   - Cấu hình PlatformIO
-```
+
+```env
 [env:esp32doit-devkit-v1]
 build_type = release
 platform = espressif32
