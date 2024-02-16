@@ -1,4 +1,5 @@
-![image](https://github.com/neittien0110/MCU/assets/8079397/7433a485-2b2f-4c4f-be65-aca73ecece0a)# Lolin S2 Mini
+# Lolin S2 Mini
+
  ![front](https://www.wemos.cc/en/latest/_static/boards/s2_mini_v1.0.0_1_16x16.jpg)
  ![rear](https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_2_16x16.jpg)
  
@@ -65,7 +66,7 @@ Hash of data verified.
 - Kích thước: 52*28mm
 - Trọng lượng khoảng 9.5g
 
-![image](![image](https://github.com/neittien0110/MCU/assets/8079397/86295369-7803-4ea9-89ad-a823bc3dba39)
+![image](https://github.com/neittien0110/MCU/assets/8079397/cd9d75d5-f80b-4bc0-87c7-5fac6f4a260d)
 
 ### Tra cứu bản đồ địa chỉ bộ nhớ
 
