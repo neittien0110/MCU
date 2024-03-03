@@ -7,6 +7,7 @@
 - Module CPU: ESP32-S2F
 - Kích thước: 34.3 x 25.4 mm
 - Cổng nạp và nguồn cấp: USB Type C
+- Có 14 chân touch-pin 
 
 ![image](https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_4_16x9.jpg)
 
@@ -59,6 +60,7 @@ Hash of data verified.
 - Bộ nhớ ngoài: 4MB
 - Nặng 2.4g
 - Chip điều khiển USB-Serial: ch340c
+- [14 chân touch pin](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s2/api-reference/peripherals/touch_pad.html)
 - Nguồn cấp:
   - Chân **Vin** cho phép dải điện áp 5-12V (Phiên bản pin đầu vào tối đa 5.5V)
   - Cổng USB
