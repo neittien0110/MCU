@@ -39,7 +39,6 @@
 platform = espressif32
 board = lolin32_lite
 ```
-![image](https://github.com/neittien0110/MCU/assets/8079397/71912ac5-488c-45be-9af2-06452e94a2cd)
 
 ### Schematic
 
