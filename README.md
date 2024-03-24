@@ -31,4 +31,4 @@ Mô tả về các loại vi điều khiển Master Control Unit
 ## Họ RASBERRY PI kiến trúc ARM
 
 1. [RasberryPi Zero RP2040](RasberryPi/RasberryPi-Zero-RP2040.md)\
-   ![RasberryPi Zero RP2040](../assets/rp2040_zero.png)
+   ![RasberryPi Zero RP2040](./assets/rp2040_zero.png)
