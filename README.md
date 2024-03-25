@@ -2,6 +2,18 @@
 
 Mô tả về các loại vi điều khiển Master Control Unit
 
+## Các chỉ thị biên dịch
+
+Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn trên giao diện. [Xem ở đây](./preprocessor.vi.md). Ví dụ
+
+```C
+#if defined(AVR_UNO)
+    /// Áp dùng khi board là Arduino UNO
+#elif defined(ESP32C3_DEV)
+    /// Áp dụng khi board là ESP32C3 DevKit Module
+#endif       
+```
+
 ## Họ ESP32 kiến trúc RISC-V
 
 >Hiểu hơn về kiến trúc RISC-V. [Xem ở đây](https://neittien0110.github.io/RISC-VFundamentalMaterials)
