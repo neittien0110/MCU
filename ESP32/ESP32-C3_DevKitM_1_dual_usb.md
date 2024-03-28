@@ -8,6 +8,7 @@
 - Có 2 cổng USB Type C:
   - Cổng USB có chữ COM, đã được chuyển đổi thành Serial,  dùng để nạp code và giao tiếp với máy tính như các loại Dev-Kit khác
   - Cổng USB có chữ USB, dạng native, dùng để biến Dev-Kit thành thiết bị dạng HID kết nối với máy tính
+    - <mark> Ưu điểm nổi bật: cho phép debug step-by-step mà không cần thiết bị bổ trợ. Đã thử nghiệm thành công với Visual Studio Code. </mark>
 
 ## Lập trình
 
