@@ -34,6 +34,8 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 
 1. [ESP8266 NodeMCU Ver 3](ESP8266/NodeMCU_V3.md)\
    ![image](https://github.com/neittien0110/MCU/assets/8079397/f32df356-5468-4375-ae79-c744f414449b)
+2. [ESP8266 D1 R2 mini](ESP8266/Wemosd1r2mini.md)\
+   ![ESP8266 Wemos D1 R2 mini](./assets/esp8266_wemosd1r2mini_thumbnail.png)
 
 ## Họ ATTINY kiến trúc AVR
 
