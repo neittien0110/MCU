@@ -36,6 +36,8 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
    ![image](https://github.com/neittien0110/MCU/assets/8079397/f32df356-5468-4375-ae79-c744f414449b)
 2. [ESP8266 D1 R2 mini](ESP8266/Wemosd1r2mini.md)\
    ![ESP8266 Wemos D1 R2 mini](./assets/esp8266_wemosd1r2mini_thumbnail.png)
+3. [ESP-01 và ESP-01s](ESP8266/ESP01.md)\
+   ![ESP-01 và ESP-01s](assets/esp-01_top.png)
 
 ## Họ ATTINY kiến trúc AVR
 
