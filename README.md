@@ -20,6 +20,10 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 
 1. [ESP32-C3 Dual USB](ESP32/ESP32-C3_DevKitM_1_dual_usb.md)\
     ![ESP32-C3 Dual USB](./assets/esp32-c3.1.png)
+2. [ESP32-C3 Super mini](ESP32/ESP32-C3_SuperMini.md)\
+    ![ESP32-C3 Super mini](./assets/ESP32-C3_SuperMini.png)
+3. [ESP32-C3 FH4 LedBoard](ESP32/ESP32-C3_FH4_LedBoard.md)\
+    ![ESP32-C3 FH4 LedBoard](./assets/ESP32-C3_FH4_LedBoard.png)
 
 ## Họ ESP32 kiến trúc ARM
 
