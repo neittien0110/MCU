@@ -8,7 +8,7 @@
 - Module CPU: ESP32-S2F
 - Kích thước: 34.3 x 25.4 mm
 - Cổng nạp và nguồn cấp: USB Type C
-- Có 14 chân touch-pin 
+- Có 14 chân touch-pin
 
 ![image](https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_4_16x9.jpg)
 
@@ -72,6 +72,7 @@ Trong cửa số Device Management ban đầu sẽ không có cổng COM nạp c
   - Nguồn điện 3.3V trực tiếp vào các chân pin 3.3V (chú ý không được bảo vệ)
 - Kích thước: 52*28mm
 - Trọng lượng khoảng 9.5g
+- Footprint: <https://github.com/neittien0110/linhkiendientu/edit/master/EasyEDA_Library.md>
 
 ![ESP32-S2 D1 mini pinout](../assets/esp32-s2_d1_mini_pinout.png)
 
@@ -84,7 +85,7 @@ Trong cửa số Device Management ban đầu sẽ không có cổng COM nạp c
 ## Tham khảo
 
  - <https://www.wemos.cc/en/latest/s2/s2_mini.html>
-  
+
 ## Mua
 
 - Lazada: <https://www.lazada.vn/products/i1962797806-s9056915561.html?urlFlag=true&mp=1&spm=spm%3Da2o4n.order_details.item_title.1>
