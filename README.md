@@ -1,6 +1,9 @@
 # MCU
 
 Mô tả về các loại vi điều khiển Master Control Unit
+Tham khảo các nội dung khác:
+- [Linh kiện](https://neittien0110.github.io/linhkiendientu/)
+- [Mạch sạc](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 
 ## Các chỉ thị biên dịch
 
