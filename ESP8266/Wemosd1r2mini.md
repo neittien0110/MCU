@@ -27,6 +27,8 @@
 
 ## Thông số chi tiết
 
+- Footprint: <https://github.com/neittien0110/linhkiendientu/edit/master/EasyEDA_Library.md>
+  
 ![Wemos D1 R2 mini vị trí Led pinout](../assets/esp8266_wemosd1r2mini_pinout.png)
 
 ### Tra cứu bản đồ địa chỉ bộ nhớ
