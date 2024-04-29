@@ -4,19 +4,20 @@ Mô tả về các loại vi điều khiển Master Control Unit
 
 ## Mục lục
 
-1. [Các chỉ thị biên dịch]()
-2. [Họ ESP32 kiến trúc RISC-V]()
-3. [Họ ESP32 kiến trúc ARM]()
-4. [Họ ATTINY kiến trúc AVR]()
-5. [Họ RASBERRY PI kiến trúc ARM]()
-   
+1. [Các chỉ thị biên dịch](#các-chỉ-thị-biên-dịch)
+2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
+3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
+4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
+5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+
 Tham khảo các nội dung khác:
+
 - [Linh kiện](https://neittien0110.github.io/linhkiendientu/)
 - [Mạch sạc](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 
 ## Các chỉ thị biên dịch
 
-Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn trên giao diện. [Xem ở đây](./preprocessor.vi.md). Ví dụ
+Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn trên giao diện. Ví dụ
 
 ```C
 #if defined(AVR_UNO)
@@ -25,6 +26,8 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
     /// Áp dụng khi board là ESP32C3 DevKit Module
 #endif       
 ```
+
+[Xem danh sách các chị thị xác định loại CPU ở đây](./preprocessor.vi.md).
 
 ## Họ ESP32 kiến trúc RISC-V
 
