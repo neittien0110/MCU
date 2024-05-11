@@ -189,6 +189,15 @@ Porting trong mã nguồn như sau\
   }
 ```
 
+## Thiết kế board
+
+- [Symbol tại EasyEDA](https://easyeda.com/editor#id=18961e98ec4a40d898f9f249758cc22e|a9d5eabad4db46ad94d932aa7da6334e|!389fa6d92786445fac4a9a934dfa8232|!723191762e9c490cbc8dd6448162145e)
+  ![ESP32-C3-DevKitM-1 Symbol](https://github.com/neittien0110/MCU/assets/8079397/f5eaedb8-e49e-4c93-b34d-6a4172c93064)
+
+- [Footprint tại EasyEDA](https://easyeda.com/editor#id=18961e98ec4a40d898f9f249758cc22e|a9d5eabad4db46ad94d932aa7da6334e|!389fa6d92786445fac4a9a934dfa8232)
+  ![ESP32-C3-DevKitM-1 Footprint ](https://github.com/neittien0110/MCU/assets/8079397/bea0e979-9088-43a7-b4a7-2a66d37b6774)
+
+
 ## Mua sắm
 
 - [Shopee](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-Ph%C3%A1t-Tri%E1%BB%83n-Lo%E1%BA%A1i-C-ESP32-ESP32-C3-ESP32-S3-ESP32-C3-C3-DevKitM-1-ESP32-C3-MINI-1-ESP32-S3-DevKit-C-N16R8-i.770245757.20363483969?sp_atk=55ab357f-ed60-48bb-bc5e-dbad34444041&xptdk=55ab357f-ed60-48bb-bc5e-dbad34444041)
