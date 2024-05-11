@@ -14,12 +14,18 @@
 
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
+- Nút bấm BOOT có trên board được nối sẵn ở GPIO**9**
 - LED RGB được nối sẵn ở GPIO**8**
-- LED_BUILDIN  được nối với chân .....\
-  
-  ```C
-  #define LED_BUILDIN ????
-  ```
+- Có 2 đèn led đơn sắc tích hợp sẵn tren board, ở 2 chân TX, RX, đồng thời có thể dùng độc lập
+
+```C
+  #define BOOT_BUTTON_PIN   9  # Nút bấm Boot để nạp nạp code khi khởi động, hoặc cho mục đích tùy ý sau đó
+  #define LEDRGB_PIN        8  # Đèn  LED 3 màu WS2812
+  #define TX_PIN           21  # Chân TX mặc định, kèm đèn led đỏ
+  #define RX_PIN           20  # Chân TX mặc định, kèm đèn led xanh
+  #define RED_LED_PIN      21  # Chân TX mặc định, kèm đèn led đỏ
+  #define BLUE_LED_PIN     20  # Chân TX mặc định, kèm đèn led xanh
+```
 
 ### Với Arduino IDE:
   
