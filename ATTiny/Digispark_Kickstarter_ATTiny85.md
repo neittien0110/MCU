@@ -1,8 +1,13 @@
+
+
 # Digispark Kickstarter ATTiny85
 
-ModelA:
+ModelA:\
 ![image](https://github.com/neittien0110/MCU/assets/8079397/9facb5b4-40ad-44d3-8f54-08399f50087e)
 ![image](https://github.com/neittien0110/MCU/assets/8079397/2becfdcb-ed08-4fd4-8da6-dd248c5e3f05)
+
+Mini LilyPadATtiny85 CJMCU\
+![Mini LilyPadATtiny85 CJMCU](../assets/lilypad_attiny85.png)
 
 ## Mô tả
 
@@ -24,8 +29,8 @@ ModelA:
 - Với Arduino IDE:
   - Thêm thông tin về board mới:
     > <http://digistump.com/package_digistump_index.json>
-  - Chọn board: Digispark (Default - 16 mhz)
-
+  - Chọn board: Digispark (Default - 16 mhz)\
+    ![Digispark (Default - 16 mhz)](../assets/digispark_default_16mhz.png)
 - Với Visual Studio Code + PlatformIO
   - Chọn board:
     ![PlatformIO](https://github.com/neittien0110/MCU/assets/8079397/600f32e7-d18c-4c1a-875e-0da0960e843d)

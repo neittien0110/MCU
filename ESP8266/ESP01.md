@@ -17,6 +17,11 @@
   #define LED_BUILDIN 1
   //Với ESP-01S
   #define LED_BUILDIN 2
+  // và phân chung
+  #define GPI01 1
+  #define GPI03 3
+  #define TX 1
+  #define RX 3
   ```
 
 ![esp 01 led builtin](../assets/esp-01_led.png)
@@ -60,8 +65,8 @@
 - Chức năng của từng chân:
   - VCC: 3.3V , dòng có thể lên 300mA vì thế cần mạch nguồn riêng  ams1117 5V->3.3V 
   - GND: 0V
-  - Tx: Chân Tx của giao thức UART, kết nối đến chân Rx của vi điều khiển.
-  - Rx: Chân Rx của giao thức UART, kết nối đến chân Tx của vi điều khiển.
+  - Tx: GPI01 Chân Tx của giao thức UART, kết nối đến chân Rx của vi điều khiển.
+  - Rx: GPI03 Chân Rx của giao thức UART, kết nối đến chân Tx của vi điều khiển.
   - RST:  chân reset, kéo xuống mass để reset.
   - CH_PD: chân này nếu được kéo lên mức cao module sẽ bắt đầu thu phát wifi, kéo xuống mức thấp module dừng phát wifi. Vì ESP8266 khởi động hút dòng lớn nên chúng ta giữ chân này ở mức 0V khi khởi động hệ thống của mình , sau 2 s hãy kéo chân CH_PD lên 3.3V, để đảm bảo module hoạt động ổn định.
   - GPIO0: kéo xuống thấp cho chế độ upgrade firmware.
