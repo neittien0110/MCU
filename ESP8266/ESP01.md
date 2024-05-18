@@ -4,6 +4,8 @@
 
 ![ESP-01](../assets/esp-01_top.png)
 
+> Nên dùng ESP-01S vì có lớp vẽ kí hiệu *top silk* và *bottom silk* dễ nhìn hơn
+
 ## Lập trình
 
 - Ngôn ngữ lập trình:
@@ -85,3 +87,8 @@
 ## Mua
 
 - [Shopee](https://shopee.vn/M%C3%B4-%C4%90un-Thu-Ph%C3%A1t-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-ESP8266-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-32-ESP-32S-2.4G-Cho-Arduino-i.812409307.20522645636)
+
+## Schematic và PCB
+
+  ![alt text](../assets/esp-01s-easyedalib.png)
+  ![alt text](../assets/esp-01s_footprint.png)
