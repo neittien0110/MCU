@@ -14,12 +14,18 @@
 
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
+- Nút bấm BOOT có trên board được nối sẵn ở GPIO**9**
 - LED RGB được nối sẵn ở GPIO**8**
-- LED_BUILDIN  được nối với chân .....\
-  
-  ```C
-  #define LED_BUILDIN ????
-  ```
+- Có 2 đèn led đơn sắc tích hợp sẵn tren board, ở 2 chân TX, RX, đồng thời có thể dùng độc lập
+
+```C
+  #define BOOT_BUTTON_PIN   9  # Nút bấm Boot để nạp nạp code khi khởi động, hoặc cho mục đích tùy ý sau đó
+  #define LEDRGB_PIN        8  # Đèn  LED 3 màu WS2812
+  #define TX_PIN           21  # Chân TX mặc định, kèm đèn led đỏ
+  #define RX_PIN           20  # Chân TX mặc định, kèm đèn led xanh
+  #define RED_LED_PIN      21  # Chân TX mặc định, kèm đèn led đỏ
+  #define BLUE_LED_PIN     20  # Chân TX mặc định, kèm đèn led xanh
+```
 
 ### Với Arduino IDE:
   
@@ -182,6 +188,15 @@ Porting trong mã nguồn như sau\
     Wire.begin(I2C_SDA, I2C_SCL);
   }
 ```
+
+## Thiết kế board
+
+- [Symbol tại EasyEDA](https://easyeda.com/editor#id=18961e98ec4a40d898f9f249758cc22e|a9d5eabad4db46ad94d932aa7da6334e|!389fa6d92786445fac4a9a934dfa8232|!723191762e9c490cbc8dd6448162145e)
+  ![ESP32-C3-DevKitM-1 Symbol](https://github.com/neittien0110/MCU/assets/8079397/f5eaedb8-e49e-4c93-b34d-6a4172c93064)
+
+- [Footprint tại EasyEDA](https://easyeda.com/editor#id=18961e98ec4a40d898f9f249758cc22e|a9d5eabad4db46ad94d932aa7da6334e|!389fa6d92786445fac4a9a934dfa8232)
+  ![ESP32-C3-DevKitM-1 Footprint ](https://github.com/neittien0110/MCU/assets/8079397/bea0e979-9088-43a7-b4a7-2a66d37b6774)
+
 
 ## Mua sắm
 
