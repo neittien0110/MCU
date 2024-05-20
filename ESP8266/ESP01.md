@@ -4,12 +4,13 @@
 
 ![ESP-01](../assets/esp-01_top.png)
 
-> Nên dùng ESP-01S vì có lớp vẽ kí hiệu *top silk* và *bottom silk* dễ nhìn hơn
+> Nên dùng ESP-01S vì có lớp vẽ kí hiệu *top silk* và *bottom silk* dễ nhìn hơn. Đồng thời xem thêm [bên dưới](#khác-biệt-esp-01-vs-esp-01s)
 
 ## Lập trình
 
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
+- Chân **CH_PD=GPIO 0** phải bằng 0, GND, để ESP-01(S) ở trạng thái nạp code.
 - LED_BUILDIN  được nối với chân GPIO01 với module ESP-01, và chân GPIO02 với module ESP-01S
   
   ```C
@@ -67,9 +68,9 @@
   - GND: 0V
   - Tx: GPI01 Chân Tx của giao thức UART, kết nối đến chân Rx của vi điều khiển.
   - Rx: GPI03 Chân Rx của giao thức UART, kết nối đến chân Tx của vi điều khiển.
-  - RST:  chân reset, kéo xuống mass để reset.
-  - CH_PD: chân này nếu được kéo lên mức cao module sẽ bắt đầu thu phát wifi, kéo xuống mức thấp module dừng phát wifi. Vì ESP8266 khởi động hút dòng lớn nên chúng ta giữ chân này ở mức 0V khi khởi động hệ thống của mình , sau 2 s hãy kéo chân CH_PD lên 3.3V, để đảm bảo module hoạt động ổn định.
-  - GPIO0: kéo xuống thấp cho chế độ upgrade firmware.
+  - RST:  chân reset, tích cực mức thấp / 0 / GND.
+  - **CH_PD**: CHip Power Down, cho phép thu phát wifi, tích cực mức cao / 1/ VCC. Chân này nếu được kéo lên mức cao module sẽ bắt đầu thu phát wifi, kéo xuống mức thấp module dừng phát wifi. Vì ESP8266 khởi động hút dòng lớn nên chúng ta giữ chân này ở mức 0V khi khởi động hệ thống của mình , sau 2 s hãy kéo chân CH_PD lên 3.3V, để đảm bảo module hoạt động ổn định.
+  - **GPIO0**: kéo xuống thấp **=GND** cho chế độ upgrade firmware (nạp code).
   - GPIO2: không sử dụng.
 
 >Lưu ý : KHÔNG cấp nguồn cho esp8266 v1 bằng nguồn 3.3v của mạch pl2302,cp2102,arduino uno, nano, mega.. có thể gây cháy mạch mà nên dùng các mạch nguồn ngoài.
@@ -78,6 +79,13 @@
 ![esp-01 pinout](../assets/esp-01_pinout.jpg)\
 **ESP-01S**\
 ![esp-01s pinout](../assets/esp-01s_pinout.png)\
+
+## Khác biệt ESP-01 VS ESP-01S
+
+ESP-01 | ESP-01S
+--|--
+Chân Reset phải được pull-up|Chân Reset có pull-up bên trong, mặc định
+Chân CH_PD phải được pull-up|Chân CH_PD có pull-up bên trong, mặc định
 
 
 ### Tra cứu bản đồ địa chỉ bộ nhớ
