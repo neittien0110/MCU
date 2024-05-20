@@ -10,7 +10,6 @@
 
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
-- Chân **CH_PD=GPIO 0** phải bằng 0, GND, để ESP-01(S) ở trạng thái nạp code.
 - LED_BUILDIN  được nối với chân GPIO01 với module ESP-01, và chân GPIO02 với module ESP-01S
   
   ```C
@@ -50,6 +49,13 @@
     platform = espressif8266
     board = esp01  
     ```
+
+## Nạp code
+
+1. Chân **CH_PD=GPIO 0** phải bằng 0, GND, để ESP-01(S) ở trạng thái nạp code.
+2. Bởi vì không có nút Reset, nên trước khi nạp code phải unplug MCU với nguồn, rồi cắm lại (như vậy thì GPIO = 0 mới có tác dụng khi boot để đưa MCU vào trạng thái nạp code)
+
+![ESP-01S rear](../assets/esp-01s-flashing.png)
 
 ## Thông số chi tiết
 
