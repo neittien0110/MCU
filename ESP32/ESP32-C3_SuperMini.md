@@ -46,6 +46,7 @@
 - Kích thước: 22,52x18mm
 
 ![Mặt trước](https://github.com/neittien0110/MCU/assets/8079397/4652a092-a04b-4c0d-b42b-579035a3d77d)
+![Mặt trước có chú thích](https://europe1.discourse-cdn.com/arduino/original/4X/8/0/f/80f07e53b7ddd448a8ac00608dd82acb5611a201.jpeg)
 ![Mặt sau](https://github.com/neittien0110/MCU/assets/8079397/5c3f065d-b669-4e43-a7e0-8004af4285d9)
 
 
