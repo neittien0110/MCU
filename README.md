@@ -4,9 +4,9 @@ Mô tả về các loại vi điều khiển Master Control Unit
 
 ## Mục lục
 
-1. [Các chỉ thị biên dịch](#các-chỉ-thị-biên-dịch)
+1. [Các chỉ thị biên dịch](#cac-chi-thi-bien-dich)
 2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
-3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
+3. [Họ ESP32 kiến trúc ARM](#ho-esp32-kien-truc-arm)
 4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
 5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
 
@@ -48,6 +48,7 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
    ![ESP32 Lite V1.0](https://github.com/neittien0110/MCU/assets/8079397/6234a674-fa97-4ba6-bf02-6be6ef4023d3)
 3. [Wemos Lolin S2 mini](ESP32/Lolin_S2_mini.md)\
    ![Lolin S2 mini](https://github.com/neittien0110/MCU/assets/8079397/28776905-6750-4990-a436-22e171ad1bad)
+4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-TFT2,8.md)   
 
 ## Họ ESP8266 ARM
 
