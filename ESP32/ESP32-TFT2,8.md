@@ -1,4 +1,4 @@
-# ESP32 nàn hình vàng TFT 2.8"
+# ESP32 màn hình vàng TFT 2.8"
 
 ## Mô tả
 
