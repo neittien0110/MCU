@@ -6,7 +6,7 @@ Mô tả về các loại vi điều khiển Master Control Unit
 
 1. [Các chỉ thị biên dịch](#cac-chi-thi-bien-dich)
 2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
-3. [Họ ESP32 kiến trúc ARM](#ho-esp32-kien-truc-arm)
+3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
 4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
 5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
 
