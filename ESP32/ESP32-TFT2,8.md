@@ -1,5 +1,7 @@
 # ESP32 màn hình vàng TFT 2.8"
 
+![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
+
 ## Mô tả
 
 - Tên chính thức: ESP32-2432S028R
