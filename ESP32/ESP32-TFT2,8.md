@@ -144,6 +144,13 @@ Cụm các bài tiếp làm quen dần
   ![Hiển thị 1 nút bấm Toogle ON/OFF trên màn hình](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2024/03/Touchscreen-Press-On-Off-Button-Cheap-Yellow-Display-ESP32-2432S028R.jpg?w=750&quality=100&strip=all&ssl=1)
 - [Sử dụng LVGL](https://randomnerdtutorials.com/lvgl-cheap-yellow-display-esp32-2432s028r/)
 - [Kết nối với SDCard (cùng chân pin)](https://randomnerdtutorials.com/esp32-microsd-card-arduino/)
+- [Học về LVGL](https://docs.lvgl.io/master/)
+- [Video ESP32 | LittlevGL | Arduino IDE - [Part.1] Basic LittlevGL for Simple Note App](https://youtu.be/dErIWm-IVhc?si=4Sn3NGdw8n3iQOVk)\
+  ![image](https://github.com/neittien0110/MCU/assets/8079397/c2b11d93-2c38-41bf-90a3-c45cfe9942bf)
+
+  
+
+
 
 ## Vỏ in 3D
 
