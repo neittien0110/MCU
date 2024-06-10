@@ -72,5 +72,5 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 
 ## Họ CH32 kiến trúc RISC-V
 
-1. [CH32V003](CH32\CH32V003.md)\
+1. [CH32V003](./CH32/CH32V003.md)\
    ![image](https://github.com/neittien0110/MCU/assets/8079397/5d129b69-2f8a-4384-8ca3-92d6191236ee)
