@@ -52,10 +52,17 @@
 
 ## Nạp code
 
+**CÁCH 1: dùng bộ chuyển đổi uart2usb**
 1. Chân **CH_PD=GPIO 0** phải bằng 0, GND, để ESP-01(S) ở trạng thái nạp code.
-2. Bởi vì không có nút Reset, nên trước khi nạp code phải unplug MCU với nguồn, rồi cắm lại (như vậy thì GPIO = 0 mới có tác dụng khi boot để đưa MCU vào trạng thái nạp code)
-
+2. Bởi vì không có nút Reset, nên trước khi nạp code phải unplug MCU với nguồn, rồi cắm lại (như vậy thì GPIO = 0 mới có tác dụng khi boot để đưa MCU vào trạng thái nạp code)\
 ![ESP-01S rear](../assets/esp-01s-flashing.png)
+
+**CÁCH 2: giống cách 1, chỉ đơn giản hơn ở cái socket**
+![image](https://github.com/neittien0110/MCU/assets/8079397/6919beb2-d7a8-48da-a190-5c1dd5ec4dd8)
+Trích nguồn <https://nshopvn.com/product/usb-adapter-mach-thu-phat-wifi-esp8266-uart-esp-01>
+
+Xem thêm video [hướng dẫn 4 cách nạp code](https://www.youtube.com/watch?v=HqEAyOf7rqQ)
+
 
 ## Thông số chi tiết
 
