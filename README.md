@@ -49,7 +49,7 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
    ![ESP32 Lite V1.0](https://github.com/neittien0110/MCU/assets/8079397/6234a674-fa97-4ba6-bf02-6be6ef4023d3)
 3. [Wemos Lolin S2 mini](ESP32/Lolin_S2_mini.md)\
    ![Lolin S2 mini](https://github.com/neittien0110/MCU/assets/8079397/28776905-6750-4990-a436-22e171ad1bad)
-4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-C3_FH4_LedBoard.md)   \
+4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-TFT2,8.md)   \
    ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
 
 ## Họ ESP8266 ARM
