@@ -6,9 +6,10 @@ Mô tả về các loại vi điều khiển Master Control Unit
 
 1. [Các chỉ thị biên dịch](#cac-chi-thi-bien-dich)
 2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
-3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
-4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
-5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+4. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
+5. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
+6. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+7. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
 
 Tham khảo các nội dung khác:
 
@@ -68,3 +69,8 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 
 1. [RasberryPi Zero RP2040](RasberryPi/RasberryPi-Zero-RP2040.md)\
    ![RasberryPi Zero RP2040](./assets/rp2040_zero.png)
+
+## Họ CH32 kiến trúc RISC-V
+
+1. [CH32V003](CH32\CH32V003.md)\
+   ![image](https://github.com/neittien0110/MCU/assets/8079397/5d129b69-2f8a-4384-8ca3-92d6191236ee)
