@@ -11,6 +11,7 @@
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
 - LED_BUILDIN  được nối với chân GPIO01 với module ESP-01, và chân GPIO02 với module ESP-01S
+> Do điều kiện xác định chế độ nạp code là  **(Mới reset) and (GPIO0 = GND)** nên không được sử dụng GPIO0 để nối với module có pull-down. Ví dụ GPIO0 gắn với chân Echo của [SR-04](https://neittien0110.github.io/linhkiendientu/#%C4%91o-kho%E1%BA%A3ng-c%C3%A1ch) thì MCU sẽ không chạy được, vì chân Echo sẽ luôn được SR-04 kéo về 0.
   
   ```C
   //Với ESP-01
