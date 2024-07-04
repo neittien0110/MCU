@@ -59,6 +59,8 @@
 ![ESP-01S rear](../assets/esp-01s-flashing.png)
 
 **CÁCH 2: giống cách 1, chỉ đơn giản hơn ở cái socket**
+[Mua bộ này có sẵn nút bấm](https://shopee.vn/M%C3%B4-%C4%90un-T%E1%BA%A3i-Xu%E1%BB%91ng-CH340C-ESP8266-ESP-01-ESP-01S-Chuy%C3%AAn-D%E1%BB%A5ng-i.869927552.22538518490)
+
 ![image](https://github.com/neittien0110/MCU/assets/8079397/6919beb2-d7a8-48da-a190-5c1dd5ec4dd8)
 Trích nguồn <https://nshopvn.com/product/usb-adapter-mach-thu-phat-wifi-esp8266-uart-esp-01>
 
