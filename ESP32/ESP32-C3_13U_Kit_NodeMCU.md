@@ -13,12 +13,11 @@
 - Y hệt như Esp32-C3 Super mini
 
 ```C
-  #define BOOT_BUTTON_PIN   9  # Nút bấm Boot để nạp nạp code khi khởi động, hoặc cho mục đích tùy ý sau đó
-  #define LEDRGB_PIN        8  # Đèn  LED 3 màu WS2812
-  #define TX_PIN           21  # Chân TX mặc định, kèm đèn led đỏ
-  #define RX_PIN           20  # Chân TX mặc định, kèm đèn led xanh
-  #define RED_LED_PIN      21  # Chân TX mặc định, kèm đèn led đỏ
-  #define BLUE_LED_PIN     20  # Chân TX mặc định, kèm đèn led xanh
+  #define RED_LED_PIN      03  # Đèn led red trong cụm led RGB
+  #define GREEN_LED_PIN    04  # Đèn led green trong cụm led RGB
+  #define BLUE_LED_PIN     05  # Đèn led blue trong cụm led RGB  
+  #define LED2_PIN         19  # Led đơn màu trắng bên phải
+  #define LED3_PIN         18  # Led đơn màu vàng cam bên phải
 ```
 
 ## Thông số chi tiết
