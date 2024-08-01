@@ -11,6 +11,7 @@
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
 - LED_BUILDIN  được nối với chân GPIO01 với module ESP-01, và chân GPIO02 với module ESP-01S
+> Do điều kiện xác định chế độ nạp code là  **(Mới reset) and (GPIO0 = GND)** nên không được sử dụng GPIO0 để nối với module có pull-down. Ví dụ GPIO0 gắn với chân Echo của [SR-04](https://neittien0110.github.io/linhkiendientu/#%C4%91o-kho%E1%BA%A3ng-c%C3%A1ch) thì MCU sẽ không chạy được, vì chân Echo sẽ luôn được SR-04 kéo về 0.
   
   ```C
   //Với ESP-01
@@ -52,10 +53,19 @@
 
 ## Nạp code
 
+**CÁCH 1: dùng bộ chuyển đổi uart2usb**
 1. Chân **CH_PD=GPIO 0** phải bằng 0, GND, để ESP-01(S) ở trạng thái nạp code.
-2. Bởi vì không có nút Reset, nên trước khi nạp code phải unplug MCU với nguồn, rồi cắm lại (như vậy thì GPIO = 0 mới có tác dụng khi boot để đưa MCU vào trạng thái nạp code)
-
+2. Bởi vì không có nút Reset, nên trước khi nạp code phải unplug MCU với nguồn, rồi cắm lại (như vậy thì GPIO = 0 mới có tác dụng khi boot để đưa MCU vào trạng thái nạp code)\
 ![ESP-01S rear](../assets/esp-01s-flashing.png)
+
+**CÁCH 2: giống cách 1, chỉ đơn giản hơn ở cái socket**
+[Mua bộ này có sẵn nút bấm](https://shopee.vn/M%C3%B4-%C4%90un-T%E1%BA%A3i-Xu%E1%BB%91ng-CH340C-ESP8266-ESP-01-ESP-01S-Chuy%C3%AAn-D%E1%BB%A5ng-i.869927552.22538518490)
+
+![image](https://github.com/neittien0110/MCU/assets/8079397/6919beb2-d7a8-48da-a190-5c1dd5ec4dd8)
+Trích nguồn <https://nshopvn.com/product/usb-adapter-mach-thu-phat-wifi-esp8266-uart-esp-01>
+
+Xem thêm video [hướng dẫn 4 cách nạp code](https://www.youtube.com/watch?v=HqEAyOf7rqQ)
+
 
 ## Thông số chi tiết
 

@@ -16,7 +16,10 @@
   ```
 
 - Với Arduino IDE:
-  - Chọn board: .................
+  - Chọn board: **ESP32C3 Dev Module**
+  - Cấu hình: **USB CDC On Boat: "Enabled"**\
+    ![image](https://github.com/neittien0110/MCU/assets/8079397/f7cd5deb-49fc-4d84-b80d-479d8028c8c4)
+
 - Với Visual Studio Code:
   - Chọn board: .........................
   - Cấu hình PlatformIO\
@@ -43,12 +46,33 @@
 - Đèn LED xanh trên bo mạch, chân GPIO8
 - Kích thước: 22,52x18mm
 
-### Tra cứu bản đồ địa chỉ bộ nhớ
+![Mặt trước](https://github.com/neittien0110/MCU/assets/8079397/4652a092-a04b-4c0d-b42b-579035a3d77d)
+![Mặt trước có chú thích](https://europe1.discourse-cdn.com/arduino/original/4X/8/0/f/80f07e53b7ddd448a8ac00608dd82acb5611a201.jpeg)
+![Mặt sau](https://github.com/neittien0110/MCU/assets/8079397/5c3f065d-b669-4e43-a7e0-8004af4285d9)
+
+### Schematic
+
+![ESP32 C3 Supermini Schematic](https://github.com/neittien0110/MCU/assets/8079397/fde37cb3-ab8d-448a-babf-54226d073937)
 
 ## Demo
 
 ```C
+#define LED_BUILTIN 8
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED_BUILTIN, OUTPUT);    
+  pinMode(GPIO_NUM_10, INPUT_PULLUP);
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(LED_BUILTIN, digitalRead(GPIO_NUM_10));
+  delay(1);
+}
 ```
+
+![image](https://github.com/neittien0110/MCU/assets/8079397/77a3498e-b15c-41f3-9015-f3805dc30e27)
+![image](https://github.com/neittien0110/MCU/assets/8079397/d172e777-00df-47dd-b28b-cd855fca43e5)
+![image](https://github.com/neittien0110/MCU/assets/8079397/44c03571-aa02-4551-87e8-0c83f9b59a22)
 
 ## Vỏ in 3D
 

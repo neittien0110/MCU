@@ -64,7 +64,7 @@
 - Bộ nhớ ngoài: 4Mb
 - Chip điều khiển USB-Serial: ch340c
 - Nguồn cấp:
-  - Chân **Vin** cho phép dải điện áp 5-12V (Phiên bản pin đầu vào tối đa 5.5V)
+  - Chân **Vin** cho phép dải điện áp **5-12V** (Phiên bản pin đầu vào tối đa 5.5V)
   - Cổng USB
   - Nguồn điện 3.3V trực tiếp vào các chân pin 3.3V (chú ý không được bảo vệ)
 - Kích thước: 52*28mm

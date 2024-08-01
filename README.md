@@ -9,6 +9,7 @@ Mô tả về các loại vi điều khiển Master Control Unit
 3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
 4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
 5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+6. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
 
 Tham khảo các nội dung khác:
 
@@ -56,6 +57,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![ESP32 Lite V1.0](https://github.com/neittien0110/MCU/assets/8079397/6234a674-fa97-4ba6-bf02-6be6ef4023d3)
 3. [Wemos Lolin S2 mini](ESP32/Lolin_S2_mini.md)\
    ![Lolin S2 mini](https://github.com/neittien0110/MCU/assets/8079397/28776905-6750-4990-a436-22e171ad1bad)
+4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-TFT2,8.md)   \
+   ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
 
 ## Họ ESP8266 ARM
 
@@ -76,6 +79,11 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
 1. [RasberryPi Zero RP2040](RasberryPi/RasberryPi-Zero-RP2040.md)\
    ![RasberryPi Zero RP2040](./assets/rp2040_zero.png)
 
+## Họ CH32 kiến trúc RISC-V
+
+1. [CH32V003](./CH32/CH32V003.md)\
+   ![image](https://github.com/neittien0110/MCU/assets/8079397/5d129b69-2f8a-4384-8ca3-92d6191236ee)
+
 ## Thêm MCU mới vào ArduinoIDE
 
 1. Trong Arduino IDE, chọn File/Properties (hoặc Ctrl+comma)\
@@ -92,3 +100,4 @@ Ví dụ dòng khai báo sau cho các loại MCU:
 ![alt text](./assets/arduinoide_boardmanager.png)
 
 4. Tìm đúng tên board. Bấm **Install**.
+
