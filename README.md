@@ -12,6 +12,7 @@ Mô tả về các loại vi điều khiển Master Control Unit
 
 Tham khảo các nội dung khác:
 
+- [Bổ sung MCU mới vào ArduinoIDE](#thêm-mcu-mới-vào-arduinoide)
 - [Linh kiện](https://neittien0110.github.io/linhkiendientu/)
 - [Mạch sạc](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 
@@ -32,6 +33,11 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 ## Họ ESP32 kiến trúc RISC-V
 
 >Hiểu hơn về kiến trúc RISC-V. [Xem ở đây](https://neittien0110.github.io/RISC-VFundamentalMaterials)
+ESP32 với 2 dòng series phổ biến là C3, và mới hơn là C6 sử dụng kiến trúc RISC-V.
+ESP32-C3 với kiến trúc cụ thể là *RV32IMC*, pipeline 4 công đoạn, 32 vector ngắt với 7 mức ưu tiên [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf).
+ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn, 28 vector ngắt ngoài với 16 mức ưu tiên và 2 chế độ M/U. [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf)
+
+![Qui tắc đặt tên của ESP32-C3](./assets/esp32-c3_naming.png)
 
 1. [ESP32-C3 Dual USB](ESP32/ESP32-C3_DevKitM_1_dual_usb.md)\
     ![ESP32-C3 Dual USB](./assets/esp32-c3.1.png)
@@ -39,6 +45,8 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
     ![ESP32-C3 Super mini](./assets/ESP32-C3_SuperMini.png)
 3. [ESP32-C3 FH4 LedBoard](ESP32/ESP32-C3_FH4_LedBoard.md)\
     ![ESP32-C3 FH4 LedBoard](./assets/ESP32-C3_FH4_LedBoard.png)
+4. [ESP32-C3-13U](ESP32/ESP32-C3_13U_Kit_NodeMCU.md)\
+    ![ESP32-C3-13U ](./assets/esp32-c3-13u-kit_nodemcu_front.png)
 
 ## Họ ESP32 kiến trúc ARM
 
@@ -67,3 +75,20 @@ Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn t
 
 1. [RasberryPi Zero RP2040](RasberryPi/RasberryPi-Zero-RP2040.md)\
    ![RasberryPi Zero RP2040](./assets/rp2040_zero.png)
+
+## Thêm MCU mới vào ArduinoIDE
+
+1. Trong Arduino IDE, chọn File/Properties (hoặc Ctrl+comma)\
+![alt text](./assets/arduinoide_preferences.png)
+
+2. Trong tab Settings, vào textbox Additional Boards Manager URLs và nhập vào các dòng cấu hình. Mỗi loại MCU trên một dòng. Sau đó, bấm **OK**. \
+![alt text](./assets/arduinoide_boardurl.png)\
+Ví dụ dòng khai báo sau cho các loại MCU:
+   - Digistump AVR Boards: <http://digistump.com/package_digistump_index.json>
+   - Espressif - ESP32: <https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json>
+   - Espressif - ESP8266: <https://arduino.esp8266.com/stable/package_esp8266com_index.json>
+
+3. Ở menu, chọn **Tools → Board:.. → Board Manager…**\
+![alt text](./assets/arduinoide_boardmanager.png)
+
+4. Tìm đúng tên board. Bấm **Install**.

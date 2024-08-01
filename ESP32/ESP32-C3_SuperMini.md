@@ -8,10 +8,11 @@
 
 - Ngôn ngữ lập trình:
 - Công cụ lập trình: Arduino IDE, Visual Studio Code + PlatformIO
-- LED_BUILDIN  được nối với chân .....\
+- LED_BUILDIN  được nối với chân 8\
   
   ```C
-  #define LED_BUILDIN ????
+  #define LED_BUILDIN 8   //Blue led mặc định, tích cực mức thấp
+  #define BUTTON_BOOT 9   //Nút bấm boot lập trình được, đã có sẵn điện trở kéo lên, tích cực mức thấp
   ```
 
 - Với Arduino IDE:
