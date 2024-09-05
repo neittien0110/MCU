@@ -86,8 +86,11 @@ Tham khảo: <https://docs.platformio.org/en/latest/boards/atmelavr/digispark-ti
 
 ## Sự cố
 
-Mô tả sau đây có trường hợp servo nối vào PB2 và lấy điện tự pin 5V:
+Mô tả sau đây có trường hợp servo nối vào PB2 và lấy điện từ chân pin 5V:
 - Nếu cấp nguồn 5V qua cổng USB thì board điều khiển được 1 servo + 1 led 5mm + 1 led builtin
 - Nếu cấp nguồn 5V qua cổng USB, nhưng trích dây nguồn để cắm vào chân 5V tren board thì đủ cho 1 servo + 1 led 5mm + 1 led builtin
-- Nếu cấp nguồn 4.0V trực tiếp từ pin Lithium, cắm vào chân 5V thi board vãn chạy, nhưng không đủ khỏe cho 1 servo chạy + 1 led 5mm + 1 led builtin
+- Nếu cấp nguồn 4.0V trực tiếp từ pin 18650, cắm vào chân 5V thi board vãn chạy, nhưng không đủ khỏe cho 1 servo chạy + 1 led 5mm + 1 led builtin
 - Nếu cấp nguồn 5.0V từ pin Lithium đi qua mạch tăng áp lên 5V, cắm vào chân 5V thi board vãn chạy, nhưng vẫn không đủ khỏe cho 1 servo chạy + 1 led 5mm + 1 led builtin
+Servo 90MG cần dòng hơn 500mA, đặc biệt là khi làm cánh tay nâng rác. Vì vậy vấn đề nằm ở hệ nguồn
+
+
