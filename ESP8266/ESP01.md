@@ -23,6 +23,7 @@
   #define GPI03 3
   #define TX 1
   #define RX 3
+  // Lưu ý: lúc khởi động GPIO0 = 0v thì sẽ hiểu là ESP-01 ở trạng thái nạp code. Vì vậy khi sử dụng chân GPIO0 như là chân INPUT thì phải chú ý trạng thái khởi động. Ví dụ BUG đã từng gặp phải là khi kết nối Siêu ấm SR04 với ESP01 với chân SR04.ECHO nối với ESP-01.GPIO0 thì ESP-01 không chạy do đặc tính của SR04 là luôn kéo chân ECHO = 0v khi không phát hiện có phản xạ.
   ```
 
 ![esp 01 led builtin](../assets/esp-01_led.png)
