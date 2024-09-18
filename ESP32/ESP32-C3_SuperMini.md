@@ -21,10 +21,15 @@
     ![image](https://github.com/neittien0110/MCU/assets/8079397/f7cd5deb-49fc-4d84-b80d-479d8028c8c4)
 
 - Với Visual Studio Code:
-  - Chọn board: .........................
-  - Cấu hình PlatformIO\
+  - Chọn board: esp32-c3-devkitm-1
+  - Cấu hình PlatformIO
 
   ```env
+  [env:esp32-c3-devkitm-1]
+  platform = espressif32
+  board = esp32-c3-devkitm-1
+  framework = arduino
+  monitor_speed = 115200
   ```
 
 ## Thông số chi tiết
