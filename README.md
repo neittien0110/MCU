@@ -92,7 +92,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
 2. Trong tab Settings, vào textbox Additional Boards Manager URLs và nhập vào các dòng cấu hình. Mỗi loại MCU trên một dòng. Sau đó, bấm **OK**. \
 ![alt text](./assets/arduinoide_boardurl.png)\
 Ví dụ dòng khai báo sau cho các loại MCU:
-   - Digistump AVR Boards: <http://digistump.com/package_digistump_index.json>
+   - Digistump AVR Boards: <https://raw.githubusercontent.com/digistump/arduino-boards-index/refs/heads/master/package_digistump_index.json>
+      > Chú ý link <http://digistump.com/package_digistump_index.json> khồng còn sử dụng được từ 2024.
    - Espressif - ESP32: <https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json>
    - Espressif - ESP8266: <https://arduino.esp8266.com/stable/package_esp8266com_index.json>
 
