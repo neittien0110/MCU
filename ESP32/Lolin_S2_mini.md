@@ -1,7 +1,6 @@
 # Lolin S2 Mini
 
- ![front](https://www.wemos.cc/en/latest/_static/boards/s2_mini_v1.0.0_1_16x16.jpg)
- ![rear](https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_2_16x16.jpg)
+[s2_mini_v1.0.0_2_16x16.png](../assets/s2_mini_v1.0.0_2.png)
 
 ## Mô tả
 
