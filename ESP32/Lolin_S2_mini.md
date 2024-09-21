@@ -1,6 +1,6 @@
 # Lolin S2 Mini
 
-[s2_mini_v1.0.0_2_16x16.png](../assets/s2_mini_v1.0.0_2.png)
+![s2_mini_v1.0.0_2_16x16.png](../assets/s2_mini_v1.0.0_2.png)
 
 ## Mô tả
 
