@@ -17,7 +17,8 @@
 - LED_BUILDIN  màu xanh dương được nối với chân 15\
 
   ```C
-  #define LED_BUILDIN 15
+  #define LED_BUILDIN 15   // Blue led on board
+  #define BOOT_BUILDIN 00  // BOOT buton on board
   ```
 
 - Với Arduino IDE:
@@ -72,6 +73,7 @@ Trong cửa số Device Management ban đầu sẽ không có cổng COM nạp c
 - Kích thước: 52*28mm
 - Trọng lượng khoảng 9.5g
 - Footprint: <https://github.com/neittien0110/linhkiendientu/edit/master/EasyEDA_Library.md>
+- Schematic: <https://www.wemos.cc/en/latest/_static/files/sch_s2_mini_v1.0.0.pdf>
 
 ![ESP32-S2 D1 mini pinout](../assets/esp32-s2_d1_mini_pinout.png)
 
