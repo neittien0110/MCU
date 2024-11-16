@@ -59,6 +59,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![Lolin S2 mini](https://github.com/neittien0110/MCU/assets/8079397/28776905-6750-4990-a436-22e171ad1bad)
 4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-TFT2,8.md)   \
    ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
+5. [Module MCU ESP32-WROOM-32](ESP32/ESP32-WROOM-32.md)\
+   ![Module MCU ESP32-WROOM-32](https://github.com/user-attachments/assets/0868797f-6cb5-46a8-adf7-0a51f226e525)
 
 ## Họ ESP8266 ARM
 
