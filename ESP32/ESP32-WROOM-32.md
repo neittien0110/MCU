@@ -18,3 +18,4 @@
   
 
 - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
+- [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-tri%E1%BB%83n-ESP32-WiFi-Bluetooth-Ultra-Low-Power-Core-ESP-32-ESP-32S-ESP-32-Similar-ESP8266-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-i.578443443.13742226706)
