@@ -1,5 +1,35 @@
 # CÁC CHỈ THỊ BIÊN DỊCH
 
+## Hướng dẫn thay đổi code khi chuyển board env với PlatformIO
+
+Hướng dẫn sau hướng dẫn thay đổi code tự động dựa việc chọn [env] trong platformio.ini
+![image](https://github.com/user-attachments/assets/df41f110-fdca-4a75-b7c2-53608d97335f)
+
+1. Mở file **platformio.ini**
+2. Trong các cấu hình board khác nhau [env] bổ sung thêm flag biên dịch. Ví dụ
+    ```dosini
+    [env:esp32-c3-devkitm-1]
+    ; something
+    build_flags = 
+    	-D ADRUINO_BOARD_ESP32_C3_SUPERMINI    ; đặt thêm define bất kì
+    
+    [env:esp32-wroom-32]
+    ; something
+    build_flags = 
+    	-D ADRUINO_BOARD_ESP32_DEV_KIT        ; đặt thêm define bất kì
+    ```
+3. Trong mã nguồn, bổ sung các chỉ thị biên dịch
+   ```dosini
+    #if defined(ADRUINO_BOARD_ESP32_C3_SUPERMINI)
+        // TODO: something
+    #elif defined(ADRUINO_BOARD_ESP32_DEV_KIT)
+        // TODO: something
+    #endif   
+   ```
+Vậy là xong. Các chỉ thị sẽ làm thay đổi mã nguồn cần biên dịch mỗi khi thay đổi [env] trên giao diện ![change platformio env](https://github.com/user-attachments/assets/8d23e73d-abed-4873-93c0-df2b9e4b602c)
+
+
+
 ## Các chỉ thị sử dụng với ArduinoIDE
 
 Các chỉ thị giúp thay đổi code tùy theo loại Board được chọn trên giao diện. Vi dụ
@@ -328,7 +358,7 @@ Mặc dù có nhiều loại board khác nhau, chúng có thể dùng chung mộ
 - Tổng quát, hãy tìm từ khóa **build.board** và lấy ra mã định danh ở file **boards.txt** này <https://github.com/esp8266/Arduino/blob/master/boards.txt>
 - Ví dụ một số loại board phổ biến:
   |Tên board | Mã chỉ thị biên dịch |--|
-  |--|--|--|
+  |--|--|--:|
   |Generic ESP8266 Module|ESP8266_GENERIC|View|
   |Generic ESP8285 Module|ESP8266_ESP01|View|
   |4D Systems gen4 IoD Range|GEN4_IOD|View|
