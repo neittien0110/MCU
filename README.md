@@ -48,6 +48,11 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
     ![ESP32-C3 FH4 LedBoard](./assets/ESP32-C3_FH4_LedBoard.png)
 4. [ESP32-C3-13U](ESP32/ESP32-C3_13U_Kit_NodeMCU.md)\
     ![ESP32-C3-13U ](./assets/esp32-c3-13u-kit_nodemcu_front.png)
+5. [Module MCU ESP32-C3-WROOM-02](ESP32/ESP32-C3-WROOM-02.md)\
+   ![Module MCU ESP32-C3-WROOM-02](https://github.com/user-attachments/assets/12a2f9fd-38b8-418f-94e4-1e0b8fabe41d)
+
+7. [Module MCU ESP32-C6-WROOM-1](ESP32/ESP32-C6-WROOM-1.md)\
+   ![Module MCU ESP32-C6-WROOM-1](https://github.com/user-attachments/assets/dc546dfa-2bdf-4f6f-a385-1f16e225a606)   
 
 ## Họ ESP32 kiến trúc ARM
 
@@ -61,10 +66,6 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
 5. [Module MCU ESP32-WROOM-32](ESP32/ESP32-WROOM-32.md)\
    ![Module MCU ESP32-WROOM-32](https://github.com/user-attachments/assets/0868797f-6cb5-46a8-adf7-0a51f226e525)
-5. [Module MCU ESP32-C6-WROOM-1](ESP32/ESP32-C6-WROOM-1.md)\
-   ![Module MCU ESP32-C6-WROOM-1](https://github.com/user-attachments/assets/dc546dfa-2bdf-4f6f-a385-1f16e225a606)
-
-
 
    ESP32-WROOM-32.md
 
