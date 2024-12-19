@@ -17,6 +17,7 @@
 - Nút bấm BOOT có trên board được nối sẵn ở GPIO**9**
 - LED RGB được nối sẵn ở GPIO**8**
 - Có 2 đèn led đơn sắc tích hợp sẵn tren board, ở 2 chân TX, RX, đồng thời có thể dùng độc lập
+- Nạp code mà không cần bấm tổ hợp 2 nút RST và BOOT
 
 ```C
   #define BOOT_BUTTON_PIN   9  # Nút bấm Boot để nạp nạp code khi khởi động, hoặc cho mục đích tùy ý sau đó
@@ -25,6 +26,9 @@
   #define RX_PIN           20  # Chân TX mặc định, kèm đèn led xanh
   #define RED_LED_PIN      21  # Chân TX mặc định, kèm đèn led đỏ
   #define BLUE_LED_PIN     20  # Chân TX mặc định, kèm đèn led xanh
+
+  #define LED_TURNON LOW       # Đèn led RED, BLUE tích cực mức thấp
+  #define LED_TURNOFF HIGH     # Đèn led RED, BLUE tích cực mức thấp
 ```
 
 ### Với Arduino IDE:
