@@ -40,6 +40,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
 
 ![Qui tắc đặt tên của ESP32-C3](./assets/esp32-c3_naming.png)
 
+[Cách sử dụng USB-JTAG Debug đối với dòng C3](https://visualgdb.com/tutorials/esp32/esp32-c3/)
+
 1. [ESP32-C3 Dual USB](ESP32/ESP32-C3_DevKitM_1_dual_usb.md)\
     ![ESP32-C3 Dual USB](./assets/esp32-c3.1.png)
 2. [ESP32-C3 Super mini](ESP32/ESP32-C3_SuperMini.md)\
