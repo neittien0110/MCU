@@ -27,6 +27,11 @@
 
 ## Lập trình
 
+### Chọn board
+
+  - Với ArduinoIDE:\
+    <img width="341" height="47" alt="image" src="https://github.com/user-attachments/assets/e94e36c5-d2fd-46f3-b05c-d69a8c9d7daa" />
+
 ### Với OLED
 ```C
 // Khai báo các thư viện cần thiết cho màn hình OLED
