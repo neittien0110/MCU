@@ -1,5 +1,6 @@
 # ESP8266 NodeMCU + OLED 0,96"
 
+<img width="570" height="294" alt="image" src="https://github.com/user-attachments/assets/4774a73f-f3dc-4c5d-9f7c-5fd0cd2ab522" />
 
 ## Thông số
 
