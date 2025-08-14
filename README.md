@@ -7,9 +7,10 @@ Mô tả về các loại vi điều khiển Master Control Unit
 1. [Các chỉ thị biên dịch](#các-chỉ-thị-biên-dịch)
 2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
 3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
-4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
-5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
-6. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
+4. [Họ ESP8266](#họ-esp8266)
+5. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
+6. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+7. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
 
 Tham khảo các nội dung khác:
 
@@ -71,7 +72,7 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
 
    ESP32-WROOM-32.md
 
-## Họ ESP8266 ARM
+## Họ ESP8266
 
 1. [ESP8266 NodeMCU Ver 3](ESP8266/NodeMCU_V3.md)\
    ![image](https://github.com/neittien0110/MCU/assets/8079397/f32df356-5468-4375-ae79-c744f414449b)
@@ -79,6 +80,9 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![ESP8266 Wemos D1 R2 mini](./assets/esp8266_wemosd1r2mini_thumbnail.png)
 3. [ESP-01 và ESP-01s](ESP8266/ESP01.md)\
    ![ESP-01 và ESP-01s](assets/esp-01_top.png)
+4. [ESP8266 NodeMCU có OLED tích hợp sẵn](ESP8266/ESP8266-Oled.md)\
+   ![esp8266+oled](https://github.com/user-attachments/assets/4774a73f-f3dc-4c5d-9f7c-5fd0cd2ab522)
+   
 
 ## Họ ATTINY kiến trúc AVR
 
