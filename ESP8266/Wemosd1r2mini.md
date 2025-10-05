@@ -30,6 +30,11 @@
 - Footprint: <https://github.com/neittien0110/linhkiendientu/edit/master/EasyEDA_Library.md>
   
 ![Wemos D1 R2 mini vị trí Led pinout](../assets/esp8266_wemosd1r2mini_pinout.png)
+ 
+ - Hạn chế sủ dụng các chân D0, D8, D3 vì
+   - D0: wakeup, đánh thức khi MCU rơi vào trạng thái sleep. Không có pwm.
+   - D3: Khi boot, nếu D3 = LOW ==> trạng thái nạp code, nếu D3 = HIGH ==> trạng thái hoạt động
+   - D8: tương tự D3
 
 ### Tra cứu bản đồ địa chỉ bộ nhớ
 
