@@ -69,6 +69,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
 5. [Module MCU ESP32-WROOM-32](ESP32/ESP32-WROOM-32.md)\
    ![Module MCU ESP32-WROOM-32](https://github.com/user-attachments/assets/0868797f-6cb5-46a8-adf7-0a51f226e525)
+6. [Wemos Lolin32 với ESP32-WROOM-32 và màn oled built-in ](ESP32-Oled-Wemos Lolin32.md)\
+    <img width="910" height="325" alt="image" src="https://github.com/user-attachments/assets/b38d10f6-a183-485d-b130-e3f670577b78" />
 
    ESP32-WROOM-32.md
 
