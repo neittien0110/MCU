@@ -7,9 +7,10 @@ Mô tả về các loại vi điều khiển Master Control Unit
 1. [Các chỉ thị biên dịch](#các-chỉ-thị-biên-dịch)
 2. [Họ ESP32 kiến trúc RISC-V](#họ-esp32-kiến-trúc-risc-v)
 3. [Họ ESP32 kiến trúc ARM](#họ-esp32-kiến-trúc-arm)
-4. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
-5. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
-6. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
+4. [Họ ESP8266](#họ-esp8266)
+5. [Họ ATTINY kiến trúc AVR](#họ-attiny-kiến-trúc-avr)
+6. [Họ RASBERRY PI kiến trúc ARM](#họ-rasberry-pi-kiến-trúc-arm)
+7. [Họ CH32 kiến trúc RISC-V](#họ-ch32-kiến-trúc-risc-v)
 
 Tham khảo các nội dung khác:
 
@@ -40,6 +41,8 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
 
 ![Qui tắc đặt tên của ESP32-C3](./assets/esp32-c3_naming.png)
 
+[Cách sử dụng USB-JTAG Debug đối với dòng C3](https://visualgdb.com/tutorials/esp32/esp32-c3/)
+
 1. [ESP32-C3 Dual USB](ESP32/ESP32-C3_DevKitM_1_dual_usb.md)\
     ![ESP32-C3 Dual USB](./assets/esp32-c3.1.png)
 2. [ESP32-C3 Super mini](ESP32/ESP32-C3_SuperMini.md)\
@@ -48,6 +51,11 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
     ![ESP32-C3 FH4 LedBoard](./assets/ESP32-C3_FH4_LedBoard.png)
 4. [ESP32-C3-13U](ESP32/ESP32-C3_13U_Kit_NodeMCU.md)\
     ![ESP32-C3-13U ](./assets/esp32-c3-13u-kit_nodemcu_front.png)
+5. [Module MCU ESP32-C3-WROOM-02](ESP32/ESP32-C3-WROOM-02.md)\
+   ![Module MCU ESP32-C3-WROOM-02](https://github.com/user-attachments/assets/12a2f9fd-38b8-418f-94e4-1e0b8fabe41d)
+
+7. [Module MCU ESP32-C6-WROOM-1](ESP32/ESP32-C6-WROOM-1.md)\
+   ![Module MCU ESP32-C6-WROOM-1](https://github.com/user-attachments/assets/dc546dfa-2bdf-4f6f-a385-1f16e225a606)   
 
 ## Họ ESP32 kiến trúc ARM
 
@@ -59,8 +67,14 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![Lolin S2 mini](https://github.com/neittien0110/MCU/assets/8079397/28776905-6750-4990-a436-22e171ad1bad)
 4. [ESP32 kèm màn hình TFT 2.8" touch](ESP32/ESP32-TFT2,8.md)   \
    ![ESP32 kèm màn hình TFT 2.8" touch](https://github.com/neittien0110/MCU/assets/8079397/e9270df4-47a4-4e5c-be35-3d64d0a89c51)
+5. [Module MCU ESP32-WROOM-32](ESP32/ESP32-WROOM-32.md)\
+   ![Module MCU ESP32-WROOM-32](https://github.com/user-attachments/assets/0868797f-6cb5-46a8-adf7-0a51f226e525)
+6. [Wemos Lolin32 với ESP32-WROOM-32 và màn oled built-in ](ESP32/ESP32-Oled-Wemos%20Lolin32.md)\
+    <img width="910" height="325" alt="image" src="https://github.com/user-attachments/assets/b38d10f6-a183-485d-b130-e3f670577b78" />
 
-## Họ ESP8266 ARM
+   ESP32-WROOM-32.md
+
+## Họ ESP8266
 
 1. [ESP8266 NodeMCU Ver 3](ESP8266/NodeMCU_V3.md)\
    ![image](https://github.com/neittien0110/MCU/assets/8079397/f32df356-5468-4375-ae79-c744f414449b)
@@ -68,6 +82,9 @@ ESP32-C6, với kiến trúc cụ thể là *RV32IMAC*, pipeline 4 công đoạn
    ![ESP8266 Wemos D1 R2 mini](./assets/esp8266_wemosd1r2mini_thumbnail.png)
 3. [ESP-01 và ESP-01s](ESP8266/ESP01.md)\
    ![ESP-01 và ESP-01s](assets/esp-01_top.png)
+4. [ESP8266 NodeMCU có OLED tích hợp sẵn](ESP8266/ESP8266-Oled.md)\
+   ![esp8266+oled](https://github.com/user-attachments/assets/4774a73f-f3dc-4c5d-9f7c-5fd0cd2ab522)
+   
 
 ## Họ ATTINY kiến trúc AVR
 
